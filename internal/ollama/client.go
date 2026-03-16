@@ -20,7 +20,7 @@ type Response struct {
 // Generate sends a prompt to Ollama and returns the response
 func Generate(prompt string) (string, error) {
 	req := Request{
-		Model:  "kimi-k2.5:cloud", // safe small model
+		Model:  "llava-phi3", // our new default
 		Prompt: prompt,
 		Stream: false,
 	}
