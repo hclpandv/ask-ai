@@ -1,2 +1,2 @@
 # ask-ai
-cli based chat bot written in go
+A lightweight CLI AI assistant for developers powered by local models.
